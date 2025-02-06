@@ -1,0 +1,9 @@
+version: '3'
+services:
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:latest
+    environment:
+      ACCEPT_EULA: 'Y'
+      SA_PASSWORD: 'Selvasri_0812'
+    ports:
+      - 1435:1433
