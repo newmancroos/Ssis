@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SsisProject</Name>
-    <LastWriteTime>2025-02-06T23:32:29.8176087Z</LastWriteTime>
+    <LastWriteTime>2025-02-06T23:42:14.9950311Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -12,8 +12,13 @@
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
-      <Name>FileTab_Package.dtsx</Name>
-      <LastWriteTime>2025-02-06T23:32:21.4477813Z</LastWriteTime>
+      <Name>Package_TabFile.dtsx</Name>
+      <LastWriteTime>2025-02-06T23:35:17.1315359Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Package_Excel.dtsx</Name>
+      <LastWriteTime>2025-02-06T23:42:14.9223161Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
