@@ -30,18 +30,18 @@
 - Provides the capability to implements ETL
 
     <b>Source</b><br/>
-      - A Component which specify the location of the source data
+      - A Component which specify the location of the source data<br/><br/>
     <b>Transformation</b><br/>
-      - All changes to the data within the data pipeline
+      - All changes to the data within the data pipeline<br/><br/>
     <b>Destination</b><br/>
-      - A Component which specify the destination of the transformed data
+      - A Component which specify the destination of the transformed data<br/><br/>
     <b>Variables</b><br/>
-      - SSIS variables can be set to evaluate to a expression at runtime
+      - SSIS variables can be set to evaluate to a expression at runtime<br/><br/>
     <b>Parameters</b><br/>
       - Parameters behave cuch like variables but with few main exceptions
       - Parameters can make a package dynamic
       - Parameters can be set outside the package
       - Can be designated as values that must be passed in for the package to start
-      - It is much like configurations
+      - It is much like configurations<br/><br/>
     <b>Connection Manager</b><br/>
       - It is for current dataflow but we can convert it to Project connection manager so that we can use it in multiple packages
