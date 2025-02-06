@@ -11,28 +11,11 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{2C8AA401-7FC3-4EB8-92A5-9F65DB6B1D52}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{950181BC-419C-444C-A9E5-3E162A7D03C7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[localhost,1435.SsisDb.sa]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{2050CD25-20CD-4DE5-9820-E54C36AE3722}"
-      DTS:ObjectName="localhost,1435.SsisDb.sa">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost,1435;User ID=sa;Initial Catalog=SsisDb;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{2050CD25-20CD-4DE5-9820-E54C36AE3722}localhost,1435.SsisDb.sa;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYWJJ+BY4FUey/N4rAHgYOQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADnqaVlZrJxxb8101kMCpHxnhq6xrhNfcBPo2oc8UaugwAAAAAOgAAAAAIAACAAAABGGqUqmRL22LA7v6qmg61pgLGb+3w8D9M9pXTHlJEwUiAAAACcWexssuu9dq5MLZJHZdMugZk/EGqAIBqJojidL6hgrkAAAAB3aQXojc8CjI5j5R1AOKen1SJX+0+y0MV0g8bqazuXo15ZkP6ge7vGLofPrNzchwC2WVbZCiSjtpjRzBV/xTFI</DTS:Password>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Sample_Data]"
       DTS:CreationName="FLATFILE"
@@ -416,8 +399,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[localhost,1435.SsisDb.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[localhost,1435.SsisDb.sa]"
+                  connectionManagerID="{2050CD25-20CD-4DE5-9820-E54C36AE3722}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[localhost,1435.SsisDb.sa]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>

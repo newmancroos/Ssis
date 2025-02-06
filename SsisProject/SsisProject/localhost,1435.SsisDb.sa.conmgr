@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost,1435.SsisDb.sa"
+  DTS:DTSID="{2050CD25-20CD-4DE5-9820-E54C36AE3722}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost,1435;User ID=sa;Initial Catalog=SsisDb;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{2050CD25-20CD-4DE5-9820-E54C36AE3722}localhost,1435.SsisDb.sa;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYWJJ+BY4FUey/N4rAHgYOQAAAAACAAAAAAAQZgAAAAEAACAAAABrYjZE7l26Oqrq+o55SwGUxPVsr4qHEEHqWuZOylBOmwAAAAAOgAAAAAIAACAAAAAUG5ofoM2hc5ZW3J1OycGxo96qtHEiyIwuStx1fzNUqoAAAADpvaNG1v2o5i1HH/20nFAumUdgoDJtf2AGznYDUKRMEzkowEwewp/a8MBXB62TNIFPutV74l6Yncwn5LoG4yU25Io2QImf3TE81vgw38yc7DndZK4hw03frNFasKHGILyR/AbIpmXfRD36pQsFQrh6qcCTwgAcIBXLoyLQxD9aLUAAAAAHmYkJXg79HAeoKvxf4lIz2REGBvGifHgQM50XTv4U6RjOvoy/70cc4j450MHPkUn1PynG1RtCEbm0c+RdOwq/</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

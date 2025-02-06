@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
-  DTS:CreationDate="2/6/2025 3:39:32 PM"
+  DTS:CreationDate="2/6/2025 6:27:28 PM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="NEWMANCROOS"
   DTS:CreatorName="NEWMANCROOS\newma"
-  DTS:DTSID="{2DF1B46F-7275-474D-92D2-9413495B5CE1}"
+  DTS:DTSID="{79D11D5D-8523-4B4E-8F64-AE7A2AC4EA06}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5685.0"
   DTS:LocaleID="1033"
-  DTS:ObjectName="Package"
+  DTS:ObjectName="FileTab_Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{950181BC-419C-444C-A9E5-3E162A7D03C7}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{EA302692-E5D1-4744-A39C-CDBAAAD8DD65}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Sample_Data]"
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{4E9D9485-F19D-442C-84B3-71C07B31D0F7}"
-      DTS:ObjectName="Sample_Data">
+      DTS:DTSID="{469F59BB-6CFA-4C95-AFB3-D3D4B632E10C}"
+      DTS:ObjectName="Flat File Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -30,52 +30,52 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Developments\Git\SSIS\SsisProject\Sample_Data.csv">
+          DTS:ConnectionString="C:\Developments\Git\SSIS\SsisProject\Sample_Data1.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x0009_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{09C6D8B7-286A-4C60-BC64-B19AFC51CBF3}"
+              DTS:DTSID="{350E3501-740F-47D2-8FCC-9DE155F1BE8B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x0009_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="first_name"
-              DTS:DTSID="{0B3AF7AA-C3AD-4B66-8B3F-2E61B6E29DE6}"
+              DTS:DTSID="{31F98512-9337-42DE-807A-2E0C821B0B06}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x0009_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="last_name"
-              DTS:DTSID="{49E7653D-CB3A-436F-BA69-A58EE5BAD767}"
+              DTS:DTSID="{331B5E09-7E54-4A70-B0DA-9FAF80887250}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x0009_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="email"
-              DTS:DTSID="{1683F229-EAF2-41D1-868E-4AF58AA77EF7}"
+              DTS:DTSID="{42645B33-9124-4A8F-BB33-9066F035BA40}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x0009_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="gender"
-              DTS:DTSID="{332D9EC2-28BA-43CE-909E-71C5D7B6FF02}"
+              DTS:DTSID="{540238C5-ECE7-4D05-B0B1-72CE8D64DEB4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Currency"
-              DTS:DTSID="{9ED1FF9A-3C60-44A9-8DA6-B114AD56675D}"
+              DTS:DTSID="{531D009E-3E5D-4C40-9A15-97DB0615D568}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -97,7 +97,7 @@
       DTS:refId="Package\Data Flow Task"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{C485BFC9-9DEE-4938-ACD5-3F9EB0405F5F}"
+      DTS:DTSID="{9E8BADEB-EEE4-45B8-AE53-39FEC318739F}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Data Flow Task"
@@ -129,8 +129,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Sample_Data]"
-                  connectionManagerRefId="Package.ConnectionManagers[Sample_Data]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -356,7 +356,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[Sample_Data]</property>
+                  name="OpenRowset">[TabFile]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -554,7 +554,7 @@
         <NodeLayout
           Size="155,42"
           Id="Package\Data Flow Task"
-          TopLeft="255,74" />
+          TopLeft="209,186" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -566,25 +566,37 @@
         <NodeLayout
           Size="156,42"
           Id="Package\Data Flow Task\Flat File Source"
-          TopLeft="347.5,29.5" />
+          TopLeft="287,71" />
         <NodeLayout
           Size="177,42"
           Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="333.5,246.5" />
+          TopLeft="290,288" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="423.75,71.5">
+          TopLeft="365,113">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,175"
+              EndConnector="13.5,175"
               Start="0,0"
-              End="0,167.5">
+              End="13.5,167.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,167.5" />
+                    End="0,83.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,83.5"
+                    Point2="0,87.5"
+                    Point3="4,87.5" />
+                  <mssgle:LineSegment
+                    End="9.5,87.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9.5,87.5"
+                    Point2="13.5,87.5"
+                    Point3="13.5,91.5" />
+                  <mssgle:LineSegment
+                    End="13.5,167.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
